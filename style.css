@@ -1,0 +1,157 @@
+
+*{
+	font-family:Verdana, sans-serif;
+}
+
+body {
+	font-family: 'Century Gothic', Calibri, serif;
+	font-size: 13px;
+	margin:0px;
+	padding:0px;
+}
+
+
+
+h1{
+	font-family:Sans-serif, cursive;
+	font-size:40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2{
+	float:center;
+	text-align:center;
+}
+
+h3{
+
+}
+p{
+	font-family:;
+}
+li{
+	list-style-type:none;
+}
+
+header{
+	height:100px;
+}
+
+footer{
+	height:80px;
+	padding-top:30px;
+	text-align: center;
+	background-color:#C5C5C5;
+	border-top: 2px solid #AAA;
+}
+
+nav{
+	width:100%;
+	background-color: #424558;
+}
+
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	display:inline-block;
+	text-decoration: none;
+	padding:20px 30px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size: 15px;
+}
+
+.centre{
+	display:table;
+	margin:0 auto;
+}
+
+.menu-ind:hover, .presentation{
+	border-top:5px solid #4C8;
+	background-color:RGBa(64, 200, 130, 0.15);
+}
+.menu-exp:hover, .parcours {
+	border-top:5px	solid #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-hob:hover, .competences{
+	border-top:5px solid #0070BB;
+	background-color:RGBa(000, 112, 192, 0.15);
+
+}
+.menu-cont:hover, .hobbies {
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228, 77, 38, 0.15);
+}
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+@media screen and (max-width: 780px){
+	header{
+		height:50px;
+	}
+	h1{
+		font-size:28px;
+		margin:20px 0px 0px 0px;
+	}
+	nav li a{
+		font-size:12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+}
+section {
+	width: 100%;
+	min-height: 400px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+.sec{
+	margin: 0px 10%
+
+}
+.photo{
+	border-radius:50px;
+	float:left;
+	width: 30%;
+	border-width:10px;
+}
+.right {
+	float: left;
+	width: 70%;
+}
+
+.sec::after, .exp:after{
+	content: "";
+	display: center;
+	clear: both;
+}
+#presentation{
+	border-top: 5px solid #4c8;
+	background-color: RGBa(64, 200, 130, 0.15);
+
+}
+#parcours{
+	border-top: 5px solid #f1dc4f;
+	background-color: RGBa(241, 211 ,79, 0.15);
+
+}
+#competences{
+	border-top: 5px solid #0070bb;
+	background-color: RGBa(000, 112, 192, 0.15);
+}
+#hobbies{
+	border-top: 5px solid #4c8;
+	background-color: RGBa(64, 200, 130, 0.15);
+}
